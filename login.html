@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login TaskFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="xyz">
+    <header>
+        <div class="logosvg">
+
+            <svg width="200" height="40" viewBox="0 0 200 40" xmlns="http://www.w3.org/2000/svg">
+
+                <rect x="0" y="0" width="200" height="40" fill="white" />
+
+                <text x="5" y="30" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+                    fill="#2C2C2C">TASK</text>
+
+                <text x="80" y="30" font-family="Arial, sans-serif" font-size="28" font-weight="bold"
+                    fill="#00B8A9">FLOW</text>
+
+                <path d="M10 10 L15 15 L25 5" stroke="#00B8A9" stroke-width="3" fill="none"
+                    transform="translate(140, 0) scale(0.6)" />
+            </svg>
+        </div>
+        <div class="navbtns">
+            <button class="loginbtn navbtn">Login</button>
+            <button class="aboutbtn navbtn">About</button>
+            <button class="featuresbtn navbtn">Features</button>
+            <div class="settingscroll">
+                <button class="settingsbtn navbtn">Settings</button>
+                <div class="dark-mode-outer">
+                    <input class='dark-mode' type="submit" value="Dark Mode">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="login-section">
+        <div class="login-card">
+            <h2 class="card-h2">Login to TaskFlow</h2>
+            <div class="login-form">
+                <!-- <form > -->
+                <div class="input">
+                    <label for="name">Username:</label>
+                    <input type="text" required id="name" placeholder="Enter username...">
+                    <label for="password">Password:</label>
+                    <input type="password" required id="password" placeholder="Enter password">
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+                <!-- </form> -->
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <h1>About Our Website</h1>
+        <p>Welcome to <b>TaskFlow</b> — your simple, fast, and distraction-free to-do list app.
+            I built this website to help students and busy people stay organised every day.
+            No complicated options, no confusing design — just a clean space where you can note your tasks, track your
+            progress, and stay productive.</p> <br>
+        <p>With a smooth interface, dark mode support, and lightweight performance, TaskFlow helps you focus on what
+            truly matters. Whether it’s study goals, daily routines, or long-term plans, this tool is made to keep your
+            life sorted in the easiest way possible.</p>
+    </section>
+
+    <section class="features">
+        <h2>Features</h2>
+
+        <div class="feature-container">
+            <!-- <div class="features_set1"> -->
+            <div class="feature-card">
+                <h3>✔Add, Edit & Delete Tasks</h3>
+                <p>Manage your tasks easily with smooth interactions.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>✔ Progress Tracking</h3>
+                <p>See how many tasks you’ve completed using a built-in progress bar.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>✔ Dark & Light Mode</h3>
+                <p>Switch effortlessly between themes for comfort and style.</p>
+            </div>
+            <!-- </div> -->
+            <!-- <div class="features_set2"> -->
+
+
+            <div class="feature-card">
+                <h3>✔ Clean UI / Minimal Design</h3>
+                <p>A clutter-free interface designed to ensure you focus only on your tasks.</p>
+            </div>
+            <div class="feature-card">
+                <h3>✔ Responsive Design</h3>
+                <p>Works perfectly on mobile, tablet, and laptop.</p>
+            </div>
+            <div class="feature-card">
+                <h3>✔ Secure Local Storage</h3>
+                <p>Your tasks are automatically saved in your browser.</p>
+            </div>
+            <!-- </div> -->
+            <div class='feature-card  set3card'>
+                <h3>✔ Fast & Lightweight</h3>
+                <p>Loads instantly and doesn’t lag, even with many tasks.</p>
+            </div>
+        </div>
+        <!-- <div class="features_set3"> -->
+        <!-- </div> -->
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
